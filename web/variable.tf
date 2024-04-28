@@ -1,0 +1,7 @@
+variable "sgp" {
+  
+}
+
+variable "sbnt" {
+  
+}
