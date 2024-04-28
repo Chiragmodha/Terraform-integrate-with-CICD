@@ -4,9 +4,9 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    bucket = "terraformtfstateupdatefile"
+    bucket = ""
     key = "state"
     region = "us-east-1"
-    dynamodb_table = "terraformstateupdate"
+    dynamodb_table = ""
   }
 }
